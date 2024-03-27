@@ -2,7 +2,6 @@ const express = require('express')
 require('dotenv').config()
 const bodyParser = require('body-parser')
 const multer = require('multer');
-const sharp = require('sharp');
 const app = express()
 const cors = require('cors');
 const { createClient } = require('@supabase/supabase-js');
